@@ -1,0 +1,102 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+token.txt
+
+# Python tooling and caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+coverage.xml
+.coverage
+htmlcov/
+
+# Hugging Face and model caches
+.huggingface/
+huggingface/
+hf_cache/
+transformers_cache/
+datasets_cache/
+
+# Training outputs and checkpoints
+results/
+outputs/
+output/
+checkpoints/
+checkpoint-*/
+**/checkpoint-*/
+runs/
+wandb/
+lightning_logs/
+*.ckpt
+*.safetensors
+pytorch_model.bin
+model.safetensors
+optimizer.pt
+scheduler.pt
+trainer_state.json
+training_args.bin
+
+# Generated reports and temporary files
+logs/
+*.log
+tmp/
+temp/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Optional local data copies
+# Uncomment the following line if the dataset should not be committed:
+# data/
